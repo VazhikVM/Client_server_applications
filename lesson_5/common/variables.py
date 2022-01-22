@@ -1,4 +1,5 @@
 """Канстанты"""
+import logging
 
 # Порт по умолчанию для сетевого взаимодействия
 DEFAULT_PORT = 7777
@@ -22,3 +23,7 @@ PRESENCE = 'presence'
 RESPONSE = 'response'
 ERROR = 'error'
 RESPONDEFAULT_IP_ADDRESSE = 'respondefault_ip_addressse'
+
+# Текущий уровень логирования
+LOGGING_LEVEL = logging.DEBUG
+
